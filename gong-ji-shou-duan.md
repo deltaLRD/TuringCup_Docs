@@ -29,3 +29,15 @@ description: 本页介绍了选手可以操控player所进行的攻击
 攻击才生效
 
 <figure><img src=".gitbook/assets/test.png" alt=""><figcaption></figcaption></figure>
+
+### 远程攻击
+
+#### 函数名
+
+`RemoteAttack`
+
+#### 参数：
+
+`float x` 所要攻击的方向的x值
+
+`float y` 所要攻击的方向的y值
