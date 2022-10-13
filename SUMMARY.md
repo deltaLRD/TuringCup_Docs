@@ -1,4 +1,5 @@
 # Table of contents
 
-* [数据类型](README.md)
+* [图灵杯文档](README.md)
+* [数据类型](shu-ju-lei-xing.md)
 * [攻击手段](gong-ji-shou-duan.md)
