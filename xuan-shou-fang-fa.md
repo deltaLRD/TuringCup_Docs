@@ -163,6 +163,7 @@ description: 本页介绍了选手可以操控player所进行的攻击
 攻击距离: float CloseAttackLength = 0.9 
 攻击力: float Power = 8 
 移动速度: float speed = 2
+弓兵有两个箭袋，第一个箭袋有30只箭，第二个箭袋有20只箭，切换箭袋的时间为1s
 ```
 {% endcode %}
 
