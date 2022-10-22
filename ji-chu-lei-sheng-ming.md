@@ -64,7 +64,7 @@ description: 本页说明了选手可以获取的特殊类型的数据
 
 ### class wall 障碍物
 
-成员变量
+#### 成员变量
 
 `float x` 障碍物中心点的x坐标
 
@@ -73,3 +73,13 @@ description: 本页说明了选手可以获取的特殊类型的数据
 `float xlength` 障碍物x方向上的长度
 
 `float ylength` 障碍物y方向上的长度
+
+### class buff&#x20;
+
+#### 成员变量
+
+`string buffName` BUFF名称，HpBuff表示回血buff，SpeedBuff表示加速buff
+
+`float x` buff的x坐标
+
+`float y` buff的y坐标

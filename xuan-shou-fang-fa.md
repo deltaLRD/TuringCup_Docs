@@ -40,6 +40,14 @@ description: 本页介绍了选手可以操控player所进行的攻击
 
 #### 函数名
 
+`List<buff> getBuff()`
+
+#### 具体说明
+
+返回一个buff列表，存储场上所有的buff信息
+
+#### 函数名
+
 `List<bullet> getBullet()`
 
 #### 具体说明
