@@ -124,6 +124,64 @@ description: 本页介绍了选手可以操控player所进行的攻击
 
 `int type` 想要变化的兵种
 
+> `type == 0` 是普通士兵 消耗0分
+>
+> `type == 1` 是弓箭手 消耗10分
+>
+> `type == 2` 是骑兵 消耗5分
+>
+> `type == 3` 是枪兵 消耗5分
+
 #### 具体说明：
 
-???
+无论从什么兵种变化到什么兵种都会消耗对应的分数
+
+> 从弓兵变到枪兵也会消耗5点分数
+>
+> 再从枪兵变化到弓兵会再消耗10点分数
+
+变化成功会返回 `1`
+
+变化失败会返回`0`
+
+攻击力就是敌人扣的血量
+
+普通士兵
+
+<pre data-line-numbers><code><strong>攻击范围: float CloseAttackRange = 60 (°)
+</strong><strong>攻击距离: float CloseAttackLength = 1 
+</strong>攻击力: float Power = 10 
+攻击速度: float speed = 2 (s)</code></pre>
+
+弓兵
+
+{% code overflow="wrap" lineNumbers="true" %}
+```
+攻击范围: float CloseAttackRange = 50 (°)
+攻击距离: float CloseAttackLength = 0.9 
+攻击力: float Power = 8 
+攻击速度: float speed = 2 (s)
+```
+{% endcode %}
+
+枪兵
+
+{% code overflow="wrap" lineNumbers="true" %}
+```
+攻击范围: float CloseAttackRange = 30 (°)
+攻击距离: float CloseAttackLength = 2.5
+攻击力: float Power = 13 
+攻击速度: float speed = 2 (s)
+```
+{% endcode %}
+
+骑兵
+
+{% code overflow="wrap" lineNumbers="true" %}
+```
+攻击范围: float CloseAttackRange = 60 (°)
+攻击距离: float CloseAttackLength = 1 
+攻击力: float Power = 10 
+攻击速度: float speed = 5 (s)
+```
+{% endcode %}
