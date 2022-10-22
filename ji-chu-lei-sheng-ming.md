@@ -2,9 +2,9 @@
 description: 本页说明了选手可以获取的特殊类型的数据
 ---
 
-# 数据类型
+# 基础类声明
 
-### class player
+### class player 玩家
 
 #### 成员变量
 
@@ -18,7 +18,25 @@ description: 本页说明了选手可以获取的特殊类型的数据
 
 `int coins` 玩家的金币数
 
-### class enemy
+### class rate 速度
+
+#### 成员变量
+
+`float x` x轴的速度分量
+
+`float y` y轴的速度分量
+
+### class bullet 子弹
+
+#### 成员变量
+
+`float x` 子弹的x坐标
+
+`float y` 子弹的y坐标
+
+`rate rates` 子弹的速度
+
+### class enemy 敌人
 
 #### 成员变量
 
@@ -34,10 +52,24 @@ description: 本页说明了选手可以获取的特殊类型的数据
 
 `int coins` 敌人的金币数
 
-### class coin
+`rate rates` 敌人的速度
+
+### class coin 金币
 
 #### 成员变量
 
 `float x`  金币的位置的x值
 
 `float y` 金币的位置的y值
+
+### class wall 障碍物
+
+成员变量
+
+`float x` 障碍物中心点的x坐标
+
+`float y` 障碍物中心点的y坐标
+
+`float xlength` 障碍物x方向上的长度
+
+`float ylength` 障碍物y方向上的长度

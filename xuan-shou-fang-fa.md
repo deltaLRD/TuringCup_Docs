@@ -24,11 +24,27 @@ description: 本页介绍了选手可以操控player所进行的攻击
 
 #### 函数名
 
+`List<wall> getWalls()`
+
+#### 具体说明
+
+返回一个wall列表，存储场上所有障碍物的信息
+
+#### 函数名
+
 `List<coin> getCoin()`
 
 #### 具体说明：
 
 返回一个coin列表，存储场上所有金币的信息
+
+#### 函数名
+
+`List<bullet> getBullet()`
+
+#### 具体说明
+
+返回一个bullet列表，存储场上所有子弹的信息
 
 ### 玩家操作
 
