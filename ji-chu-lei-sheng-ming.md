@@ -26,15 +26,15 @@ description: 本页说明了选手可以获取的特殊类型的数据
 
 `float y` y轴的速度分量
 
-### class bullet 子弹
+### class bullet 弓箭
 
 #### 成员变量
 
-`float x` 子弹的x坐标
+`float x` 弓箭的x坐标
 
-`float y` 子弹的y坐标
+`float y` 弓箭的y坐标
 
-`rate rates` 子弹的速度
+`rate rates` 弓箭的速度
 
 ### class enemy 敌人
 
