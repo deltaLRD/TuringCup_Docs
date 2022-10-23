@@ -152,7 +152,7 @@ description: 本页介绍了选手可以操控player所进行的攻击
 
 <pre data-line-numbers><code><strong>攻击范围: float CloseAttackRange = 60 (°)
 </strong><strong>攻击距离: float CloseAttackLength = 1 
-</strong>攻击力: float Power = 10 
+</strong>攻击力: float Power = 5 
 移动速度: float speed = 2</code></pre>
 
 弓兵
@@ -173,7 +173,7 @@ description: 本页介绍了选手可以操控player所进行的攻击
 ```
 攻击范围: float CloseAttackRange = 30 (°)
 攻击距离: float CloseAttackLength = 2.5
-攻击力: float Power = 13 
+攻击力: float Power = 10
 移动速度: float speed = 2
 ```
 {% endcode %}
@@ -184,7 +184,7 @@ description: 本页介绍了选手可以操控player所进行的攻击
 ```
 攻击范围: float CloseAttackRange = 60 (°)
 攻击距离: float CloseAttackLength = 1 
-攻击力: float Power = 10 
+攻击力: float Power = 5 
 移动速度: float speed = 5
 ```
 {% endcode %}
